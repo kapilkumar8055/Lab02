@@ -11,7 +11,6 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
         String userName = scanner.nextLine().trim();
         System.out.println("Welcome," + userName + "!");
-        System.out.println("Kapil chaudhary");
         scanner.close();
 
     }
