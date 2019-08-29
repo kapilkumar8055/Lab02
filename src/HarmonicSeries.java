@@ -1,10 +1,7 @@
-import java.util.Scanner;();
+import java.util.Scanner;
 
 public class HarmonicSeries {
-    Public Static
-
-    void main() {
-        System.out.println("Enter the Value of n");
+    public static void main(String[] args) {
         System.out.println("Enter the Value of n");
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
