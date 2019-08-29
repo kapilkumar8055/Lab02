@@ -6,8 +6,8 @@ public class HarmonicSeries {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
         double sum = 0;
-        for (int i = 0; i <= n; i++) {
-            sum = sum + (1 / i);
+        for (int i = 1; i <= n; i++) {
+            sum = sum + (1.0 / i);
         }
         System.out.println("The sum of harmonic series is " + sum);
     }
